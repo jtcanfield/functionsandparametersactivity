@@ -48,6 +48,11 @@ console.log(lessThan(2, 2) === 'Equal to');
 // 4.
 // The below assertion does not work.
 // The function addNumbers needs to be created
+function addNumbers(num1, num2){
+  let answer = 0;
+  answer = num1 + num2;
+  return answer
+}
 let twoPlusTwo = addNumbers(2, 2);
 
 console.log(twoPlusTwo === 4)
