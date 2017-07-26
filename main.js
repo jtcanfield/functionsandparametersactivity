@@ -3,7 +3,10 @@
 // It should return `true` if the first argument is greater than the second and `false` if not
 // Use the greater than operator `>`
 function greaterThan (num1, num2) {
-  return;
+  if (num1 > num2){
+    return true;
+  } else {
+  }
 }
 
 console.log(greaterThan(3, 2) === true);
@@ -34,7 +37,7 @@ console.log(lessThan(2, 2) === 'Equal to');
 
 
 // 4.
-// The below assertion does not work. 
+// The below assertion does not work.
 // The function addNumbers needs to be created
 let twoPlusTwo = addNumbers(2, 2);
 
