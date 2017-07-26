@@ -29,6 +29,15 @@ if (greaterThan(2, 3)) {
 // It returns 'Equal to' if the first argument is equal to the second
 function lessThan (num1, num2) {
   // Your answer here
+  if (num1 < num2) {
+    return 'Less than'
+  }
+  if (num1 > num2){
+    return 'Greater than'
+  }
+  if (num1 === num2){
+    return 'Equal to'
+  }
 }
 
 console.log(lessThan(2, 3) === 'Less than');
