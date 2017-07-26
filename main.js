@@ -15,7 +15,7 @@ console.log(greaterThan(3, 2) === true);
 // 2.
 // Call the `greaterThan` function in the condition for the following if statement
 // Provide arguments to `greaterThan` which make the if statement log 'Less than or equal to'
-if (greaterThan()) {
+if (greaterThan(2, 3)) {
   console.log('Greater than');
 } else {
   console.log('Less than or equal to');
